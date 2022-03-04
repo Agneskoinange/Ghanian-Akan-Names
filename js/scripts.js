@@ -6,17 +6,36 @@ var akanMaleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw", "Kofi","Kwame"];
 
 var akanFemaleNames = ["Akosua","Adwoa","Abenaa","Akua"," Yaa","Afua","Ama"];
 
-function checkAkanName(){
-    var YY= document.getElementById("year").value;
-    var MM = Number(document.getElementById("month").value);
-    var DD = Number(document.getElementById("day").value);
-    var gender = document.getElementsByName("gender");
-    var CC = parseInt(year.substring(0,2));
-    var (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
-}
+//variables
+var  yearDigits = parseInt(year.substring(2,4));
+var  monthOfBirth = parseInt(document.getElementById("month").value);
+var  dayOfBirth = parseInt(document.getElementById("day").value);
+var  centryDigits = parseInt(year.substring(0,2));
 
-function getGender() {
-    if(gender.option==true){
-        return gender="female"
+var dayOfBirth= prompt("What is your year of Birth");
+var monthOfBirth = prompt("What is your year of Birth");
+var yearOfBirth = prompt("What is your year of Birth");
+
+
+console.log();
+
+
+    function checkAkanName(){ 
+    YY = document.getElementById("year").value;
+    MM = document.getElementById("month").value;
+    DD = document.getElementById("day").value;
+    genders = document.getElementsByName("gender");
+    
+    // how to calculate the day of the week that one is born
+    let d = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+
+    
+    return(number)
+ 
     }
+    alert(d)
+
+
+
+
 }
