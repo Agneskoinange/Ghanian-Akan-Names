@@ -20,11 +20,11 @@ This application serves a web application for taking a users birthday and clacul
 ## Known Bugs
 
 ## Technologies Used
-HTML
-JAVASCRIP
-GITHUB
-CSS
-BOOSTRAP
+* HTML
+* JAVASCRIP
+* GITHUB
+* CSS
+* BOOSTRAP
 
 ## Live site link
 
