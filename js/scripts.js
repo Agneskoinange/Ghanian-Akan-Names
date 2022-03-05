@@ -22,21 +22,16 @@ function generateAkanName() {
   dayOfBirth = parseInt(document.getElementById("day").value);
   centuryDigits = parseInt(year.slice(0,2));
   // how to calculate the day of the week that one is born
-  var d = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7
-  var d=  daysOfTheWeek.slice();
-  // Var ValidDay= dayValidator();
-  validMonth= monthValidator();
+  return d = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7
 
 }
 
   //Therefore
 
-  /if (gender == "male" || "famale") {
+  if (gender == "male" || "famale") {
   let akanName =("You were born on"+ "d" +"So Your name Ghanian Akan name is" + akanName)
-  }
 
-  }
-  else {
+  }else {
     alert("Please select gender")
   }    
 
@@ -63,71 +58,68 @@ var daysOfTheWeek = ["Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Satu
 var akanMaleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw", "Kofi","Kwame"];
 
 
-     if (gender == "male" && "validDay" && "validMonth" && daysOfTheWeek[0]); {
-      return (document.getElementById("alert").innerHTML ="You were born on"+ "daysOfTheWeek.slice(0,7))" +"So Your name Ghanian Akan name is" + akanMaleNames[0]);
+     if (gender == "male" && daysOfTheWeek[0]) {
+      alert (document.getElementById("akanMaleNames").innerHTML ="You were born on"+ "daysOfTheWeek.slice(0,7))" +"So Your name Ghanian Akan name is" + akanMaleNames[0]);
     
      } else if
-      (gender == "male" && "validDay" && "validMonth" && daysOfTheWeek[1]); {
-       return (document.getElementById("alert").innerHTML ="You were born on"+ "daysOfTheWeek.slice(8,14))" +"So Your name Ghanian Akan name is" + akanMaleNames[1]);
+      (gender == "male" && "validDay" && "validMonth" && daysOfTheWeek[1]) {
+      alert (document.getElementById("akanMaleNames").innerHTML ="You were born on"+ "daysOfTheWeek.slice(8,14))" +"So Your name Ghanian Akan name is" + akanMaleNames[1]);
     
     } else if 
-    (gender == "male" && "validDay" && "validMonth" && daysOfTheWeek[2]); {
-      return (document.getElementById("alert").innerHTML ="You were born on"+ "daysOfTheWeek.slice(15,22))" +"So Your name Ghanian Akan name is" + akanMaleNames[2]);
+    (gender == "male" && "validDay" && "validMonth" && daysOfTheWeek[2]) {
+      alert (document.getElementById("akanMaleNames").innerHTML ="You were born on"+ "daysOfTheWeek.slice(15,22))" +"So Your name Ghanian Akan name is" + akanMaleNames[2]);
        
     } else if 
-      (gender == "male" && "validDay" && "validMonth" && daysOfTheWeek[3]); {
-        return (document.getElementById("alert").innerHTML ="You were born on"+ "daysOfTheWeek.slice(23,32))" +"So Your name Ghanian Akan name is" + akanMaleNames[3]);
+      (gender == "male" && "validDay" && "validMonth" && daysOfTheWeek[3]) {
+       alert (document.getElementById("akanMaleNames").innerHTML ="You were born on"+ "daysOfTheWeek.slice(23,32))" +"So Your name Ghanian Akan name is" + akanMaleNames[3]);
          
     } else if 
-      (gender == "male" && "validDay" && "validMonth" && daysOfTheWeek[4]); {
-        return (document.getElementById("alert").innerHTML ="You were born on"+ "daysOfTheWeek.slice(33,41))" +"So Your name Ghanian Akan name is" + akanMaleNames[4]);
+      (gender == "male" && "validDay" && "validMonth" && daysOfTheWeek[4]) {
+      alert (document.getElementById("akanMaleNames").innerHTML ="You were born on"+ "daysOfTheWeek.slice(33,41))" +"So Your name Ghanian Akan name is" + akanMaleNames[4]);
    
     } else if 
-      (gender == "male" && "validDay" && "validMonth" && daysOfTheWeek[5]); {
-       return (document.getElementById("alert").innerHTML ="You were born on"+ "daysOfTheWeek.slice(42,48))" +"So Your name Ghanian Akan name is" + akanMaleNames[5]);
+      (gender == "male" && "validDay" && "validMonth" && daysOfTheWeek[5]) {
+      alert (document.getElementById("akanMaleNames").innerHTML ="You were born on"+ "daysOfTheWeek.slice(42,48))" +"So Your name Ghanian Akan name is" + akanMaleNames[5]);
                
     } else if 
-     (gender == "male" && "validDay" && "validMonth" && daysOfTheWeek[6]); {
-      return (document.getElementById("alert").innerHTML ="You were born on"+ "daysOfTheWeek.slice(49,57))" +"So Your name Ghanian Akan name is" + akanMaleNames[6]);
+     (gender == "male" && "validDay" && "validMonth" && daysOfTheWeek[6]) {
+      alert (document.getElementById("akanMaleNames").innerHTML ="You were born on"+ "daysOfTheWeek.slice(49,57))" +"So Your name Ghanian Akan name is" + akanMaleNames[6]);
       
     } else {
-    alert("Input your details again")
+    alert("Input your details again");
     }
    
     var daysOfTheWeek = ["Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday" ];
 
     var akanFemaleNames = ["Akosua","Adwoa","Abenaa","Akua"," Yaa","Afua","Ama"];
     
-    if (gender == "female" && "validDay" && "validMonth" && daysOfTheWeek.slice()) {
-      return (document.getElementById("alert").innerHTML ="You were born on"+ "daysOfTheWeek.slice(0,7))" +"So Your name Ghanian Akan name is" + akanFemaleNames[0]);
+    if (gender == "female" && daysOfTheWeek.slice()) {
+      alert (document.getElementById("akanFemaleNames").innerHTML ="You were born on"+ "daysOfTheWeek.slice(0,7))" +"So Your name Ghanian Akan name is" + akanFemaleNames[0]);
     
-    }else if (gender == "female" && "validDay" && "validMonth" && daysOfTheWeek[1]); {
-      return (document.getElementById("alert").innerHTML ="You were born on"+ "daysOfTheWeek.slice(8,14))" +"So Your name Ghanian Akan name is" + akanFemaleNames[1]);
+    }else if (gender == "female" && "validDay" && "validMonth" && daysOfTheWeek[1]) {
+      alert (document.getElementById("akanFemaleNames").innerHTML ="You were born on"+ "daysOfTheWeek.slice(8,14))" +"So Your name Ghanian Akan name is" + akanFemaleNames[1]);
       
 
-    }else if (gender == "female" && "validDay" && "validMonth" && daysOfTheWeek[2]); {
-      return (document.getElementById("alert").innerHTML ="You were born on"+ "daysOfTheWeek.slice(15,22))" +"So Your name Ghanian Akan name is" + akanFemaleNames[2]);
-    };
+    }else if (gender == "female" && "validDay" && "validMonth" && daysOfTheWeek[2]) {
+      alert (document.getElementById("akanFemaleNames").innerHTML ="You were born on"+ "daysOfTheWeek.slice(15,22))" +"So Your name Ghanian Akan name is" + akanFemaleNames[2]);
+    
+    }else if (gender == "female" && "validDay" && "validMonth" && daysOfTheWeek[3]) {
+      alert (document.getElementById("akanFemaleNames").innerHTML ="You were born on"+ "daysOfTheWeek.slice(23,32))" +"So Your name Ghanian Akan name is" + akanFemaleNames[3]);
+    
+
+    }else if (gender == "female" && "validDay" && "validMonth" && daysOfTheWeek[4]) {
+      alert (document.getElementById("akanFemaleNames").innerHTML ="You were born on"+ "daysOfTheWeek.slice(33,41))" +"So Your name Ghanian Akan name is" + akanFemaleNames[4]);
+    
+
+    }else if (gender == "female" && "validDay" && "validMonth" && daysOfTheWeek[5]) {
+      alert (document.getElementById("akanFemaleNames").innerHTML ="You were born on"+ "daysOfTheWeek.slice(42,48))" +"So Your name Ghanian Akan name is" + akanFemaleNames[5]);
       
 
-    else if (gender == "female" && "validDay" && "validMonth" && daysOfTheWeek[3]); {
-      return (document.getElementById("alert").innerHTML ="You were born on"+ "daysOfTheWeek.slice(23,32))" +"So Your name Ghanian Akan name is" + akanFemaleNames[3]);
-    
-
-    }else if (gender == "female" && "validDay" && "validMonth" && daysOfTheWeek[4]); {
-      return (document.getElementById("alert").innerHTML ="You were born on"+ "daysOfTheWeek.slice(33,41))" +"So Your name Ghanian Akan name is" + akanFemaleNames[4]);
-    
-
-    }else if (gender == "female" && "validDay" && "validMonth" && daysOfTheWeek[5]); {
-      return (document.getElementById("alert").innerHTML ="You were born on"+ "daysOfTheWeek.slice(42,48))" +"So Your name Ghanian Akan name is" + akanFemaleNames[5]);
-      }
-
-    } else if (gender == "female" && "validDay" && "validMonth" && daysOfTheWeek[6]); {
-      return (document.getElementById("alert").innerHTML ="You were born on"+ "daysOfTheWeek.slice(49,57))" +"So Your name Ghanian Akan name is" + akanFemaleNames[6]);
+    } else if (gender == "female" && "validDay" && "validMonth" && daysOfTheWeek[6]) {
+      alert (document.getElementById("akanFemaleNames").innerHTML)= ("You were born on"+ "daysOfTheWeek.slice(49,57))" +"So Your name Ghanian Akan name is" + akanFemaleNames[6]);
       }
       
       else {
       alert("Input your details again")
       }
   
-      
