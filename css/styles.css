@@ -65,8 +65,13 @@ background-size: 1000px;
   } 
 }
 
-  /* @media only screen and (max-width: 600px)
-    .form {
-      margin-left: 1%;
-      margin-right: 2%;
-    } */
+.card {
+    background-color: rgb(190, 190, 223);
+    display:flow-root  
+}
+footer {
+  text-align: center;
+  padding:3px;
+  background-color: rgb(190, 190, 223); 
+  color: rgb(255, 115, 0);
+}
