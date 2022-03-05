@@ -31,7 +31,7 @@ function generateAkanName() {
 
   //Therefore
 
-  /if (gender == "male" || "famale") {
+  if (gender == "male" || "famale") {
   let akanName =("You were born on"+ "d" +"So Your name Ghanian Akan name is" + akanName)
   }
 
