@@ -28,6 +28,8 @@ This application serves a web application for taking a users birthday and calcul
 
 ## Live site link
 
+https://agneskoinange.github.io/Ghanian-Akan-Names/
+
 ## Support and contact details
 If you have any questions, concerns or comments regarding my portfolio, please contact me through koinangeagness@gmail.com
 
