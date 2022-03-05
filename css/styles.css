@@ -1,12 +1,16 @@
+
 .body {
-background-attachment: local;
-background-image:unset;
-background-position: left;
-background-size: 1000px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    
 
 
 }
 .Intro {
+    margin-top:5%
     text-align :left;
     color: rgb(14, 18, 24);
     float :left;
@@ -19,6 +23,8 @@ background-size: 1000px;
     color: rgb(255, 115, 0);
     text-shadow: 3px;
     padding: 1px;
+    margin: auto;
+    width:100%
     text-overflow: ellipsis;
 
 }
@@ -47,16 +53,21 @@ background-size: 1000px;
     align-content: center;
     flex-direction: column;
     display:grid;
+    margin-top: 8%
     
 }
 
 .about {
     text-align :center;
-    float:left;
     color: rgb(7, 9, 12);
-    display:flex;  
-
+    display:flex; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    float: left
 }
+
 
 @media only screen and (max-width: 800px){
   .form {
@@ -67,11 +78,18 @@ background-size: 1000px;
 
 .card {
     background-color: rgb(190, 190, 223);
-    display:flow-root  
+    display:flow-root 
+    float: left ;
+    margin-right:75% 
+   
 }
 footer {
   text-align: center;
-  padding:3px;
+  padding:10px;
   background-color: rgb(190, 190, 223); 
   color: rgb(255, 115, 0);
+  position:
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
