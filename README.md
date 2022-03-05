@@ -8,7 +8,7 @@ This application serves a web application for taking a users birthday and clacul
 * Created a github repository for the  application
 * Cloned it to my local device
 * Developed the project folders and files
-* The directories i developed include css, js images, readme.md, licence and the index. html file
+* The directories i developed include css, js images, readme.md, license and the index. html file
 * Created a branch of the main repository known as Akan
 * Developed my codes in html
 * Develeoped functionality using js
