@@ -123,3 +123,4 @@ var akanMaleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw", "Kofi","Kwame"];
       alert("Input your details again")
       }
   
+     

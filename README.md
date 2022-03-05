@@ -16,15 +16,32 @@ This application serves a web application for taking a users birthday and calcul
 * Merged the branch repository with main branch
 
 ## BDD
+* Find the century of the year of birth .input year sliced to centry
+* Input the yeaa of birth slice and become z2 digit number e.g year 2022 sliced to 22
+* Input  the month of birth in 08 or 12 while the output remains 2 digits
+* select the gender input and the output is either female or male
+* submit input and the application does calculation and bring the result as the output. i.e it brings out the name of the day you were borsn and your Akan name as the output
+* Incase of empty entry following d<=0) or (d>31) for a day and (m<= 0) or (m > 12)   for a moth the outputs alerts invalid
+
+####  Examples of true value input;
+* gender=female
+* date input=25
+* month input=8
+* year input 98
+* century input=19
+
+#### Expectted output 
+
+You were born on tuesday So Your name Ghanian Akan name is Abenaa
 
 ## Known Bugs
+Some output are not accurate enough as expected
 
 ## Technologies Used
 * HTML
 * JAVASCRIPT
 * GITHUB
 * CSS
-* BOOSTRAP
 
 ## Live site link
 
