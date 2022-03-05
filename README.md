@@ -12,13 +12,13 @@ This application serves a web application for taking a users birthday and clacul
 * Created a branch of the main repository known as Akan
 * Developed my codes in html
 * Develeoped functionality using js
-* Styled using css
+* Styled using css and boostrap
 * Merged the branch repository with main branch
 
 ## BDD
 
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+
 ## Technologies Used
 HTML
 JAVASCRIP
