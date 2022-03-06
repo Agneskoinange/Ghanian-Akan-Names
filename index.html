@@ -27,7 +27,7 @@
     </div>
  
             
-    <form class="form">
+    <form onsubmit="generateAkanName()" class="form" id="myForm">
         <h1>Fill in your details in the form below!</h1>
         <div class="day-of-birth">
           <label for="day"><strong>Day of birth:</strong></label>
@@ -47,13 +47,14 @@
         <div class="gender">
             <label for="gender">Your gender:</label>
               <select name="gender" id="gender"> 
-                <option value="Female" id="female" placeholder="Female">Female</option>
-                <option value="Male" id="male" placeholder="placeholder">Male</option>
+                <option value="Female" id="female" >Female</option>
+                <option value="Male" id="male" >Male</option>
              </select>
         </div><br>
 
         <div class="button">
             <button type="submit" class="btn-btn-primary" onclick="checkName();"> Get Name</button><br>
+            <input type="button" onclick="resetButton()" value="Reset Form">
         </div>
     </form>
             
@@ -71,6 +72,6 @@
     <p>Ghanian Akan Names</p>
     <p><a href="mailto:koinangeagnes@gmail.com">Copyright@ 2022:Agnes Koinange</a></p>
   </footer>
-    <script src="js/scripts.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
