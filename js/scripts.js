@@ -17,19 +17,25 @@ var d= daysOfTheWeek.slice();
 
 
 function generateAkanName() { 
-  var monthOfBirth = parseInt(document.getElementById("month").value);
-  var dayOfBirth = parseInt(document.getElementById("day").value);
-  var centuryDigits = parseInt(year.slice(0,2));
-  var yearOfBirth = parseInt(year.slice(2,4));
+  monthOfBirth = parseInt(document.getElementById("month").value);
+  dayOfBirth = parseInt(document.getElementById("day").value);
+  yearBorn = parseInt(document.getElementById("year").value);
+  centuryDigits = parseInt(yearBorn.slice(0,2))
+  yearOfBirth = parseInt(yearBorn.slice(2,4))
   // how to calculate the day of the week that one is born
   return d = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7
 }
 
 
+  
+
   //Therefore
 
-  if (gender == "male" || "famale") {
-  let akanName =("You were born on"+ "d" +"So Your name Ghanian Akan name is" + akanName)
+  if (gender == "famale") {
+  let akanMaleNames =("You were born on"+ "d" +"So Your name Ghanian Akan name is" + akanMaleNames)
+  
+  } else if (gender == "famale") {
+    let akanFemaleNames =("You were born on"+ "d" +"So Your name Ghanian Akan name is" + akanFemaleNames)
 
   }else {
     alert("Please select gender")
@@ -58,7 +64,7 @@ var daysOfTheWeek = ["Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Satu
 var akanMaleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw", "Kofi","Kwame"];
 
 
-     if (gender == "male" && daysOfTheWeek[0]) {
+     if (gender == "male" && "validDay" && "validMonth" && daysOfTheWeek[0]) {
       alert (document.getElementById("").innerHTML ="You were born on"+ "daysOfTheWeek.slice(0,7))" +"So Your name Ghanian Akan name is" + akanMaleNames[0]);
     
      } else if
@@ -93,7 +99,7 @@ var akanMaleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw", "Kofi","Kwame"];
 
     var akanFemaleNames = ["Akosua","Adwoa","Abenaa","Akua"," Yaa","Afua","Ama"];
     
-    if (gender == "female" && daysOfTheWeek.slice()) {
+    if (gender == "female" && "validDay" && "validMonth" && daysOfTheWeek.slice()) {
       alert (document.getElementById("female").innerHTML ="You were born on"+ "daysOfTheWeek.slice(0,7))" +"So Your name Ghanian Akan name is" + akanFemaleNames[0]);
     
     }else if (gender == "female" && "validDay" && "validMonth" && daysOfTheWeek[1]) {
@@ -122,5 +128,4 @@ var akanMaleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw", "Kofi","Kwame"];
       else {
       alert("Input your details again")
       }
-  
-     
+
